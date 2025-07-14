@@ -30,12 +30,12 @@ const ContactMe = () => {
         {/* Send Email Button */}
         <div className="mb-12">
           <a
-  href="mailto:sadik.mirza4032@gmail.com?subject=Let's%20Work%20Together&body=Hi%20Sadik,%0D%0A%0D%0AI%20am%20interested%20in%20collaborating%20with%20you%20on%20a%20project.%20Please%20get%20back%20to%20me.%0D%0A%0D%0AThanks!"
-  className="inline-flex items-center gap-2 bg-black text-white px-6 py-2 rounded-full text-base font-medium shadow-lg hover:scale-105 hover:shadow-cyan-500/50 transition-all duration-300"
->
-  <FaEnvelope className="text-white" />
-  Send Email
-</a>
+            href="mailto:sadik.mirza4032@gmail.com?subject=Let's%20Work%20Together&body=Hi%20Sadik,%0D%0A%0D%0AI%20am%20interested%20in%20collaborating%20with%20you%20on%20a%20project.%20Please%20get%20back%20to%20me.%0D%0A%0D%0AThanks!"
+            className="inline-flex items-center gap-2 bg-black text-white px-6 py-2 rounded-full text-base font-medium shadow-lg hover:scale-105 hover:shadow-cyan-500/50 transition-all duration-300"
+          >
+            <FaEnvelope className="text-white" />
+            Send Email
+          </a>
         </div>
 
         {/* Contact Links */}
@@ -51,7 +51,9 @@ const ContactMe = () => {
             href="https://github.com/sadikmirza4032?tab=repositories"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 text-gray-300 bg-black text-white px-6 py-2 rounded-full text-base font-medium shadow-lg hover:scale-105 hover:shadow-cyan-500/50 transition-all duration-300"
+            className="flex items-center gap-2 text-gray-300 bg-black
+             text-white px-6 py-2 rounded-full text-base font-medium shadow-lg 
+             hover:scale-105 hover:shadow-cyan-500/50 transition-all duration-300"
           >
             <FaGithub /> <span>GitHub</span>
           </a>
@@ -60,7 +62,9 @@ const ContactMe = () => {
             href="https://linkedin.com/in/mirzasadik4032"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2  bg-black text-white px-6 py-2 rounded-full text-base font-medium shadow-lg hover:scale-105 hover:shadow-cyan-500/50 transition-all duration-300"
+            className="flex items-center gap-2  bg-black text-white px-6 py-2 
+            rounded-full text-base font-medium shadow-lg
+             hover:scale-105 hover:shadow-cyan-500/50 transition-all duration-300"
           >
             <FaLinkedin /> <span>LinkedIn</span>
           </a>
@@ -69,7 +73,8 @@ const ContactMe = () => {
             href="https://instagram.com/mirza.tanvir"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 bg-black text-white px-6 py-2 rounded-full text-base font-medium shadow-lg hover:scale-105 hover:shadow-cyan-500/50 transition-all duration-300"
+            className="flex items-center gap-2 bg-black text-white px-6 py-2 rounded-full text-base 
+            font-medium shadow-lg hover:scale-105 hover:shadow-cyan-500/50 transition-all duration-300"
           >
             <FaInstagram /> <span>Instagram</span>
           </a>

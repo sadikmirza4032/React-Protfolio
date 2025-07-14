@@ -41,17 +41,15 @@ const MySkills = () => {
       color: "border-gray-400 bg-gray-800",
     },
     {
-        name:"Firebase",
-        img:"https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-        color: "border-green-500",
-    }
+      name: "Firebase",
+      img: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+      color: "border-green-500",
+    },
   ];
 
   return (
     <div className="bg-black text-white py-16 text-center">
-      <h2 className="text-3xl font-bold mb-10 ">
-        MY SKILLS
-      </h2>
+      <h2 className="text-3xl font-bold mb-10 ">MY SKILLS</h2>
 
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 gap-6 px-4 sm:px-8 md:px-16">
         {skills.map((skill, index) => (

@@ -30,7 +30,7 @@ const AboutMe = () => {
             <p className="text-base sm:text-lg md:text-xl text-gray-300 leading-relaxed">
               I also work with <span className="text-purple-400 font-medium">Redux</span> for state management and build robust backend APIs using{" "}
               <span className="text-green-400 font-medium">Node.js</span> and{" "}
-              <span className="text-orange-400 font-medium">Express.js</span>.
+              <span className="text-orange-200 font-medium">Express.js</span>.
             </p>
 
             <p className="text-base sm:text-lg md:text-xl text-gray-300 leading-relaxed">
@@ -42,7 +42,9 @@ const AboutMe = () => {
               <a
                 href="/Mirza_Tanvir_Sadik_CV.pdf"
                 download
-                className="inline-flex items-center gap-2 bg-black text-white px-6 py-2 rounded-full text-base font-medium shadow-lg border border-cyan-500 hover:scale-105 hover:shadow-cyan-500/50 transition-all duration-300"
+                className="inline-flex items-center gap-2 bg-black text-white px-6 py-2
+                 rounded-full text-base font-medium shadow-lg border border-cyan-500 hover:scale-105
+                  hover:shadow-cyan-500/50 transition-all duration-300"
               >
                 <FaDownload className="text-white" />
                 Download CV

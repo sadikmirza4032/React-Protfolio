@@ -1,4 +1,3 @@
-
 import Hero from '../Hero';
 import AboutMe from './AboutMe';
 import MySkills from './MySkills';
