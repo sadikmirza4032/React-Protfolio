@@ -1,4 +1,5 @@
 import { FaDownload } from "react-icons/fa";
+import aboutPic from "../../assets/aboutme.png"
 
 const AboutMe = () => {
   return (
@@ -11,7 +12,7 @@ const AboutMe = () => {
           {/* Profile Image */}
           <div className="flex-shrink-0">
             <img
-              src="/src/assets/aboutme.png"
+              src={aboutPic}
               alt="Mirza Tanvir Sadik"
               className="w-44 h-44 sm:w-52 sm:h-52 md:w-60 md:h-60 rounded-full object-cover border-4 border-cyan-500 shadow-lg hover:scale-105 transition duration-300 mx-auto md:mx-0"
             />
