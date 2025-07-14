@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image":"/public/assets/daily-news.PNG",
+    "image":"https://i.imgur.com/LEvWXKB.png",
     "title":"Daily Flame Firebase News",
     "category":"web",
     "demoUrl":"daily-flame-firebase-news.netlify.app",
@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "image":"/public/assets/book-race.PNG",
+    "image":"https://i.imgur.com/pEWbS63.png",
     "title":"Book Race",
     "category":"web",
     "demoUrl":"book-race.netlify.app",
@@ -19,7 +19,7 @@
   },
   {
     "id": 3,
-    "image":"/public/assets/ecommerce.PNG",
+    "image":"https://i.imgur.com/LGCRarX.png",
     "title":"E-Commerce",
     "category":"web",
     "demoUrl":"e-commerce-js-4032.netlify.app",
@@ -28,7 +28,7 @@
   },
   {
     "id": 4,
-    "image":"/public/assets/keyboard-checker.PNG",
+    "image":"https://i.imgur.com/77oPk5J.png",
     "title":"Keyboard Checker",
     "category":"web",
     "demoUrl":"keyboard-checker-4032.netlify.app",
@@ -37,7 +37,7 @@
   },
   {
     "id": 5,
-    "image":"/public/assets/phone-api.PNG",
+    "image":"https://i.imgur.com/7MzpilI.png",
     "title":"Phone Search API",
     "category":"web",
     "demoUrl":"phone-search-api-js.netlify.app",
@@ -46,7 +46,7 @@
   },
   {
     "id": 6,
-    "image":"/public/assets/skyline.PNG",
+    "image":"https://i.imgur.com/cW90ZVI.png",
     "title":"TNY.io",
     "category":"web",
     "demoUrl":"skyline-builder-project.netlify.app",
