@@ -1,5 +1,5 @@
 import { FaDownload } from "react-icons/fa";
-import aboutPic from "../../assets/aboutme.png"
+import aboutPic from "../../assets/about-me.png"
 
 const AboutMe = () => {
   return (

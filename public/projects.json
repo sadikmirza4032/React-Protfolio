@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "../src/assets/dailyNews.PNG",
+    "image": "../src/assets/daily-news.PNG",
     "title": "Daily Flame Firebase news",
     "category": "web",
     "demoUrl": "daily-flame-firebase-news.netlify.app",
@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "image": "../src/assets/bookrace.PNG",
+    "image": "../src/assets/book-race.PNG",
     "title": "Book Race",
     "category": "web",
     "demoUrl": "book-race.netlify.app",
@@ -37,7 +37,7 @@
   },
   {
     "id": 5,
-    "image": "../src/assets/phone api.PNG",
+    "image": "../src/assets/phone-api.PNG",
     "title": "Phone Search API",
     "category": "web",
     "demoUrl": "phone-search-api-js.netlify.app",
