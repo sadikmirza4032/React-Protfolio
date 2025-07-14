@@ -40,7 +40,7 @@ const AboutMe = () => {
             {/* CV Download Button */}
             <div className="pt-4">
               <a
-                href="/Mirza_Tanvir_Sadik_CV.pdf"
+                href="/Mirza_Sadik_CV.pdf"
                 download
                 className="inline-flex items-center gap-2 bg-black text-white px-6 py-2
                  rounded-full text-base font-medium shadow-lg border border-cyan-500 hover:scale-105
