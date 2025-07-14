@@ -5,7 +5,7 @@ const Projects = () => {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    fetch("https://mocki.io/v1/25e714e2-bcfe-4b12-8ce9-d45fc8fa944a")
+    fetch("https://mocki.io/v1/cd58cdc3-6588-4706-975e-672b8788e2b9")
       .then((res) => res.json())
       .then((data) => setProjects(data));
   }, []);
