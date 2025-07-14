@@ -1,0 +1,32 @@
+@import "tailwindcss";
+ 
+
+.nav-link {
+  position: relative;
+  color: white;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #9ca3af; 
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px -1px rgba(59, 130, 246, 0.4); /* subtle shadow on hover */
+}
+
+.nav-link::before {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 50%;
+  height: 2px;
+  width: 0;
+  background: linear-gradient(90deg, #06b6d4, #3b82f6, #8b5cf6); /* cyan->blue->purple */
+  border-radius: 9999px;
+  transition: all 0.5s;
+  transform-origin: center;
+}
+
+.nav-link:hover::before {
+  left: 0;
+  width: 100%;
+}

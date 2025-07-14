@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "image": "../src/assets/dailyNews.PNG",
+    "title": "Daily Flame Firebase news",
+    "category": "web",
+    "demoUrl": "daily-flame-firebase-news.netlify.app",
+    "sourceUrl": "https://github.com/sadikmirza4032/daily-flame-news-firebase.git",
+    "status": "completed"
+  },
+  {
+    "id": 2,
+    "image": "../src/assets/bookrace.PNG",
+    "title": "Book Race",
+    "category": "web",
+    "demoUrl": "book-race.netlify.app",
+    "sourceUrl": "https://github.com/sadikmirza4032/Book-Race.git",
+    "status": "completed"
+  },
+  {
+    "id": 3,
+    "image": "../src/assets/ecommerce.PNG",
+    "title": "E-Commerce",
+    "category": "web",
+    "demoUrl": "e-commerce-js-4032.netlify.app",
+    "sourceUrl": "https://github.com/sadikmirza4032/E-Commerce-JS.git",
+    "status": "completed"
+  },
+  {
+    "id": 4,
+    "image": "../src/assets/keyboard-checker.PNG",
+    "title": "keyboard Checker",
+    "category": "web",
+    "demoUrl": "keyboard-checker-4032.netlify.app",
+    "sourceUrl": "https://github.com/sadikmirza4032/keyboard-checker.git",
+    "status": "completed"
+  },
+  {
+    "id": 5,
+    "image": "../src/assets/phone api.PNG",
+    "title": "Phone Search API",
+    "category": "web",
+    "demoUrl": "phone-search-api-js.netlify.app",
+    "sourceUrl": "https://github.com/sadikmirza4032/Phone-Search-API-JS.git",
+    "status": "development"
+  },
+  {
+    "id": 6,
+    "image": "../src/assets/skyline.PNG",
+    "title": "TNY.io",
+    "category": "web",
+    "demoUrl": "skyline-builder-project.netlify.app",
+    "sourceUrl": "https://github.com/sadikmirza4032/Skyline-Builder-Project.git",
+    "status": "development"
+  }
+]
