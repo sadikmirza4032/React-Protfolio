@@ -115,7 +115,8 @@ const Navbar = () => {
             href="https://github.com/sadikmirza4032?tab=repositories"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-gradient-to-r from-green-400 to-blue-500 text-white px-4 py-2 rounded-full text-center"
+            className="bg-gradient-to-r from-green-400 to-blue-500 text-white px-4 py-2 
+            rounded-full text-center"
           >
             Connect Me
           </a>

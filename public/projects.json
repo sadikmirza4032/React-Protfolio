@@ -8,8 +8,17 @@
     "sourceUrl":"https://github.com/sadikmirza4032/daily-flame-news-firebase.git",
     "status":"completed"
   },
-  {
+    {
     "id": 2,
+    "image":"https://i.imgur.com/DyUeawC.png",
+    "title":"protfolio",
+    "category":"web",
+    "demoUrl":"https://sadik-protfolio.netlify.app/",
+    "sourceUrl":"https://github.com/sadikmirza4032?tab=repositories",
+    "status":"completed"
+  },
+  {
+    "id": 3,
     "image":"https://i.imgur.com/pEWbS63.png",
     "title":"Book Race",
     "category":"web",
@@ -17,15 +26,7 @@
     "sourceUrl":"https://github.com/sadikmirza4032/Book-Race.git",
     "status":"completed"
   },
-  {
-    "id": 3,
-    "image":"https://i.imgur.com/LGCRarX.png",
-    "title":"E-Commerce",
-    "category":"web",
-    "demoUrl":"e-commerce-js-4032.netlify.app",
-    "sourceUrl":"https://github.com/sadikmirza4032/E-Commerce-JS.git",
-    "status":"completed"
-  },
+
   {
     "id": 4,
     "image":"https://i.imgur.com/77oPk5J.png",

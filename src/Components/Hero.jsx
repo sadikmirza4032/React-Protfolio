@@ -39,7 +39,8 @@ const Hero = () => {
             Projects
           </Link>
           <a
-            href="/Mirza_Tanvir_Sadik_CV.pdf"
+            href="/public/sadik-cv.pdf"
+            target="_blank"
             download
             className="inline-flex items-center gap-2 bg-black text-white px-6 py-2 rounded-full text-base font-medium shadow-lg border border-cyan-500 hover:scale-105 hover:shadow-cyan-500/50 transition-all duration-300"
           >

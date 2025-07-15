@@ -9,7 +9,7 @@ const Projects = () => {
   
   useEffect(() => {
     setLoading(true)
-    fetch("https://mocki.io/v1/f989b2ce-fb6e-4747-ab73-2025dad2b2c8")
+    fetch("https://mocki.io/v1/adbfccdb-e629-4484-879a-b63c30ec2228")
       .then((res) => res.json())
       .then((data) => setProjects(data));
        setLoading(false)
