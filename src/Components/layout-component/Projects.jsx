@@ -1,17 +1,26 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { FaGlobe, FaCode } from "react-icons/fa";
+import { TouchContext } from "../../Provider/MobileProvider";
+import Loading from "../../Page/Loading";
 
 const Projects = () => {
+  const {loading, setLoading} = useContext(TouchContext)
   const [projects, setProjects] = useState([]);
-
+  
   useEffect(() => {
+    setLoading(true)
     fetch("https://mocki.io/v1/f989b2ce-fb6e-4747-ab73-2025dad2b2c8")
       .then((res) => res.json())
       .then((data) => setProjects(data));
+       setLoading(false)
+
   }, []);
+         if(loading){
+    return <Loading></Loading>
+  }
 
   return (
-    <div className="bg-black text-white py-12 px-4 md:px-10">
+    <div className="bg-black text-white py-12 px-4 md:px-24">
       <h2 className="text-3xl font-bold text-center mb-10">My Projects</h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-center px-4 sm:px-6">

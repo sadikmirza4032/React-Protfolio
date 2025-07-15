@@ -3,7 +3,7 @@ import aboutPic from "../../assets/about-me.png"
 
 const AboutMe = () => {
   return (
-    <section className="bg-black text-white py-20 px-4 sm:px-6 lg:px-20 overflow-hidden">
+    <section className="bg-black text-white py-20 px-4 sm:px-8 lg:px-24 overflow-hidden">
       <div className="max-w-6xl mx-auto">
         {/* Section Title */}
         <h2 className="text-4xl sm:text-5xl font-bold text-center mb-14">About Me</h2>

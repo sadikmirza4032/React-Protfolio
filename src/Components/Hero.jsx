@@ -10,7 +10,7 @@ const Hero = () => {
         <img
           src={heroIcon}
           alt="Mirza Tanvir Sadik"
-          className="mx-auto mb-8 w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-52 lg:h-52 rounded-full object-cover border-4 border-cyan-500 shadow-xl hover:scale-105 transition-transform duration-300"
+          className="mx-auto mb-8 w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-52 lg:h-52 rounded-full object-cover border-4 border-cyan-500 shadow-xl hover:scale-105 active:scale-105 transition-transform duration-300"
         />
 
         {/* Name and Title */}
@@ -32,7 +32,9 @@ const Hero = () => {
         <div className="mt-10 flex flex-col sm:flex-row items-center gap-4 justify-center">
           <Link
             to="/projects"
-            className="inline-flex items-center gap-2 bg-black text-white px-6 py-2 rounded-full text-base font-medium shadow-lg border border-cyan-500 hover:scale-105 hover:shadow-cyan-500/50 transition-all duration-300"
+            className="inline-flex items-center gap-2 bg-black text-white px-6 py-2
+             rounded-full text-base font-medium shadow-lg border border-cyan-500 hover:scale-105 
+             hover:shadow-cyan-500/50 active:scale-100 transition-all duration-300"
           >
             Projects
           </Link>

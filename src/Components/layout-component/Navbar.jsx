@@ -9,7 +9,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-black text-white px-4 md:px-16 lg:px-24 py-4 z-50 relative">
+    <nav className="bg-black text-white px-4 md:px-24 lg:px-24 py-4 z-50 relative">
       <div className="flex items-center justify-between">
         {/* Logo with Hover Glow and Pulse */}
         <div className="relative group w-fit overflow-hidden">
@@ -17,7 +17,7 @@ const Navbar = () => {
             {`<Sadik/>`}
           </p>
 
-          {/* Hover Overlay "Hello 👋" */}
+          {/* Hover "Hello  */}
           <div
             className="absolute inset-0 flex items-center justify-center
             opacity-0 scale-75 group-hover:opacity-100 group-hover:scale-100
