@@ -45,6 +45,11 @@ const MySkills = () => {
       img: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
       color: "border-green-500",
     },
+     {
+    name: "MongoDB",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+    color: "border-green-600",
+  }
   ];
 
   return (
