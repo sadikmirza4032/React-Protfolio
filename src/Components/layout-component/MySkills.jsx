@@ -1,56 +1,62 @@
 const MySkills = () => {
-  const skills = [
-    {
-      name: "HTML",
-      img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-      color: "border-orange-500",
-    },
-    {
-      name: "CSS",
-      img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-      color: "border-blue-500",
-    },
-    {
-      name: "Bootstrap",
-      img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
-      color: "border-purple-500",
-    },
-    {
-      name: "Tailwind",
-      img: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
-      color: "border-cyan-400",
-    },
-    {
-      name: "JavaScript",
-      img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-      color: "border-yellow-400",
-    },
-    {
-      name: "React",
-      img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-      color: "border-cyan-300",
-    },
-    {
-      name: "Node.js",
-      img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-      color: "border-green-500",
-    },
-    {
-      name: "Express.js",
-      img: "https://www.vectorlogo.zone/logos/expressjs/expressjs-icon.svg",
-      color: "border-gray-400 bg-gray-800",
-    },
-    {
-      name: "Firebase",
-      img: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-      color: "border-green-500",
-    },
-     {
+const skills = [
+  {
+    name: "HTML",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+    color: "border-orange-500",
+  },
+  {
+    name: "CSS",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+    color: "border-blue-500",
+  },
+  {
+    name: "Bootstrap",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+    color: "border-purple-500",
+  },
+  {
+    name: "Tailwind",
+    img: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+    color: "border-cyan-400",
+  },
+  {
+    name: "JavaScript",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    color: "border-yellow-400",
+  },
+  {
+    name: "React",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    color: "border-cyan-300",
+  },
+  {
+    name: "Redux Toolkit",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+    color: "border-purple-600",
+  },
+  {
+    name: "Node.js",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+    color: "border-green-500",
+  },
+  {
+    name: "Express.js",
+    img: "https://www.vectorlogo.zone/logos/expressjs/expressjs-icon.svg",
+    color: "border-gray-400 bg-gray-800",
+  },
+  {
+    name: "Firebase",
+    img: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+    color: "border-green-500",
+  },
+  {
     name: "MongoDB",
     img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
     color: "border-green-600",
-  }
-  ];
+  },
+];
+
 
   return (
     <div className="bg-black text-white py-16 text-center">
