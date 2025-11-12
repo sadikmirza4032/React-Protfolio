@@ -55,7 +55,13 @@ const skills = [
     img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
     color: "border-green-600",
   },
+  {
+    name: "Java",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+    color: "border-red-600",
+  },
 ];
+
 
 
   return (

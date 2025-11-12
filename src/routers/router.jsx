@@ -1,6 +1,3 @@
-
-
-
 import HomeLayout from "../Layout/HomeLayout";
 import Projects from "../Components/layout-component/Projects";
 import MySkills from "../Components/layout-component/MySkills";

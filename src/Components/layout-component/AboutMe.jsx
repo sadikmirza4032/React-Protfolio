@@ -29,7 +29,7 @@ const AboutMe = () => {
 
             <p className="text-base sm:text-lg md:text-xl text-gray-300 leading-relaxed">
               I also work with <span className="text-purple-400 font-medium">Redux</span> for state management and build robust backend APIs using{" "}
-              <span className="text-green-400 font-medium">Node.js</span> and{" "}
+              <span className="text-green-400 font-medium">Java</span> and{" "}
               <span className="text-orange-200 font-medium">Express.js</span>.
             </p>
 

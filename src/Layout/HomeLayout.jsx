@@ -3,15 +3,9 @@ import Navbar from "../Components/layout-component/Navbar";
 import ContactMe from "../Components/layout-component/ContactMe";
 import { Outlet } from "react-router-dom";
 
-
-
-
-
-
-
 const HomeLayout = () => {
   return (
-    <div className="">
+    <div>
       <header className="w-12/12 mx-auto">
         <Navbar ></Navbar>
       </header>
